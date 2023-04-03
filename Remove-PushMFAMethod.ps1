@@ -18,7 +18,7 @@ param (
 
 .NOTES
     The script requires the MSOnline PowerShell module to be installed and imported.
-    Version: 1.0.0
+    Version: 1.1.0
 
 .EXAMPLE
     PS> Remove-PushMFAMethod -UserUpn "user@contoso.com"
