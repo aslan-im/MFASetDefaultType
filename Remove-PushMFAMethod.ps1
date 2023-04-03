@@ -1,4 +1,4 @@
-#Requires -module MsolService
+#Requires -module MSOnline
 [CmdletBinding()]
 param (
     [Parameter(Mandatory=$true)]
