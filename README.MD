@@ -1,6 +1,6 @@
-# Remove-PushMFAMethod
+# Remove-MFAPushMethod
 
-The Remove-PushMFAMethod script is a PowerShell script that removes the PhoneAppNotification method from the MFA settings of an Azure AD user.
+The Remove-MFAPushMethod script is a PowerShell script that removes the PhoneAppNotification method from the MFA settings of an Azure AD user.
 Prerequisites
 
 This script requires the MSOnline PowerShell module to be installed on the machine running the script.
@@ -11,7 +11,7 @@ Open PowerShell and navigate to the directory containing the Remove-PushMFAMetho
 Import the MSOnline module by running Import-Module MSOnline.
 Execute the script by running:
 ```powershell
-.\Remove-PushMFAMethod.ps1 -UserUpn "user@contoso.com"
+.\Remove-MFAPushMethod.ps1 -UserUpn "user@contoso.com"
 ```
 replacing user@contoso.com with the user's UPN.
 
@@ -29,4 +29,4 @@ The script outputs the following:
 - If the MSOL connection is not established, it will try to connect.
 - If the specified user is found, it will display their MFA settings before and after removing the PhoneAppNotification method.
 - If the PhoneAppNotification method is successfully removed, it will display a message saying so.
-- If there is an error at any point, the script will display an error message.Remove-PushMFAMethod.ps1
+- If there is an error at any point, the script will display an error message.Remove-MFAPushMethod.ps1
